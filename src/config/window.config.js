@@ -13,7 +13,6 @@ const config = {
 
 const createConfigWindow = () => {
   const win = new BrowserWindow(config);
-
   const watching = args();
     
   if(watching === '.')

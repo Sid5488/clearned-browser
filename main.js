@@ -15,8 +15,8 @@ class Applicaton {
   }
 
   createShortcuts() {
-    globalShortcut.register('CmdOrCtrl+shift+i', openDevTools);
-    globalShortcut.register('f12', openDevTools);
+    globalShortcut.register('CmdOrCtrl+shift+i', openDevTools(win));
+    globalShortcut.register('f12', openDevTools(win));
   }
 
   running() {
